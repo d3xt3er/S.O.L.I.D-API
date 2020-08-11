@@ -1,0 +1,22 @@
+{
+  "name": "S.O.L.I.D-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/d3xt3er/S.O.L.I.D-API.git",
+  "author": "d3xt3er <48564999+d3xt3er@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "uuidv4": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/nodemailer": "^6.4.0",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
